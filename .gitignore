@@ -1,0 +1,94 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot
+HELP.md
+target/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Compiled class files
+*.class
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# Logs
+*.log
+logs/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+application-local.yaml
+application-local.yml
+application-local.properties
+**/secrets/
+*.pem
+*.key
+
+# H2 database files
+*.db
+*.trace.db
+
+# IDE — IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE — Eclipse / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IDE — NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IDE — VS Code
+.vscode/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test & coverage reports
+/test-results/
+/reports/
+*.exec
+.jacoco/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
